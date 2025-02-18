@@ -12,7 +12,7 @@ Setup Instructions
 To run this bootloader on a virtual machine using Bochs or another emulator, follow these steps:
 
 Clone the repository:
-git clone https://github.com/yourusername/simple-bootloader.git
+git clone https://github.com/WKMEDIAWORKS/Bootloader.git
 Assemble the bootloader using NASM:
 nasm -f bin -o bootloader.bin bootloader.asm
 Configure Bochs to boot the bootloader.bin image.
