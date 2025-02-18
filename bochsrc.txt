@@ -1,0 +1,11 @@
+megs: 32
+romimage: file=/usr/share/bochs/BIOS-bochs-latest, address=0xfffe0000
+vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
+floppya: 1_44=boot.com, status=inserted
+boot: a
+log: bochsout.txt
+mouse: enabled=0
+display_library: sdl2
+romimage: file=/usr/local/Cellar/bochs/3.0/share/bochs/BIOS-bochs-latest
+vgaromimage: file=/usr/local/share/bochs/VGABIOS-lgpl-latest-banshee.bin
+
